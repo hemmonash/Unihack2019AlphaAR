@@ -66,7 +66,7 @@ function OptionsWeek(props){
 
 function OptionsModel(props){
     //TODO: Show Models based on teachers
-    var model = ["cell"];
+    var model = ["Cell"];
 
     return(
         <Form className='item'>
@@ -98,7 +98,7 @@ class CreateSession extends React.Component{
             term: "01",
             week: "01",
             tab: "subject",
-            model: "cell",
+            model: "Cell",
             subjects: []
         };
 
@@ -154,7 +154,14 @@ class CreateSession extends React.Component{
     }
 
     handleCreate(){
-        var db = fire.firestore();
+        var subject = this.state.subject;
+        var term = this.state.term;
+        var week = this.state.week;
+        var model = this.state.model;
+
+        fire.database().ref('sessions/' + teacherID).set({
+            modelId: subject+term+week+model
+        });
     }
 
 
@@ -198,7 +205,7 @@ class CreateSession extends React.Component{
                             <p>{this.state.subject}{this.state.term}{this.state.week}{this.state.model}</p>
 
                             <Button className='button' onClick={() => this.handleTab("week")}>Back</Button>
-                            <Button className='button' onClick={() => this.handleCreate}>Create Session</Button>
+                            <Button className='button' onClick={() => this.handleCreate()}>Create Session</Button>
                         </Tab>
 
 
