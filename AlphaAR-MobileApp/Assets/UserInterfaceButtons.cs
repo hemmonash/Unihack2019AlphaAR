@@ -57,21 +57,7 @@ public class UserInterfaceButtons : MonoBehaviour
 
     void Update ()
     {
-     // raycasting
-     if (Input.touchCount == 1) {
-            // valid touch
-            if (Input.GetTouch(0).phase == TouchPhase.Began) {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit_, Mathf.Infinity))
-                {
-                    Debug.Log(hit_.transform.name);
-                }
-            }
-        }
-
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, Mathf.Infinity))
-        {
-            Debug.Log(hit.transform.name);
-        }
+     
 
 
         if (repeatScaleUp) {

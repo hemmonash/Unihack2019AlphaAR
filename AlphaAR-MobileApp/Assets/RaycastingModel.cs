@@ -5,13 +5,11 @@ using UnityEditor;
 
 public class RaycastingModel : MonoBehaviour
 {
-
     private bool animRunning = false;
 
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(transform.position, transform.forward, Color.green);
         if(Input.touchCount == 1 && !animRunning)
         {
             if(Input.GetTouch(0).phase == TouchPhase.Began)
