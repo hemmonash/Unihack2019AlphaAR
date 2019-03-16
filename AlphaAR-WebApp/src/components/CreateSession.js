@@ -130,39 +130,41 @@ class CreateSession extends React.Component{
 
     render(){
         return(
-            <div className='container'>
+            <div className='container1'>
+                <div className='container'>
 
-                <Tabs activeKey={this.state.tab} className='tabItem'>
-                    <Tab eventKey="subject" title="Subject" disabled>
+                    <Tabs activeKey={this.state.tab} className='tabItem'>
+                        <Tab eventKey="subject" title="Subject" disabled>
 
-                        <OptionsSubject subjects={this.state.subjects} onSelect={this.handleChangeSubject}/>
+                            <OptionsSubject subjects={this.state.subjects} onSelect={this.handleChangeSubject}/>
 
 
-                        <Button className='button' onClick={() => this.handleTab("term")}>Next</Button>
-                    </Tab>
+                            <Button className='button' onClick={() => this.handleTab("term")}>Next</Button>
+                        </Tab>
 
-                    <Tab eventKey="term" title="Term" disabled>
+                        <Tab eventKey="term" title="Term" disabled>
 
-                        <OptionsTerm onSelect={this.handleChangeTerm}/>
+                            <OptionsTerm onSelect={this.handleChangeTerm}/>
 
-                        <Button className='button' onClick={() => this.handleTab("subject")}>Back</Button>
-                        <Button className='button' onClick={() => this.handleTab("week")}>Next</Button>
+                            <Button className='button' onClick={() => this.handleTab("subject")}>Back</Button>
+                            <Button className='button' onClick={() => this.handleTab("week")}>Next</Button>
 
-                    </Tab>
+                        </Tab>
 
-                    <Tab eventKey="week" title="Week" disabled>
+                        <Tab eventKey="week" title="Week" disabled>
 
-                        <OptionsWeek subjects={this.state.subjects} onSelect={this.handleChangeWeek}/>
+                            <OptionsWeek subjects={this.state.subjects} onSelect={this.handleChangeWeek}/>
 
-                        <p>{this.state.subject}</p>
-                        <p>{this.state.term}</p>
-                        <p>{this.state.week}</p>
+                            <p>{this.state.subject}</p>
+                            <p>{this.state.term}</p>
+                            <p>{this.state.week}</p>
 
-                        <Button className='button' onClick={() => this.handleTab("term")}>Back</Button>
-                        <Button className='button'>Create Session</Button>
+                            <Button className='button' onClick={() => this.handleTab("term")}>Back</Button>
+                            <Button className='button'>Create Session</Button>
 
-                    </Tab>
-                </Tabs>
+                        </Tab>
+                    </Tabs>
+                </div>
             </div>
         )
     }

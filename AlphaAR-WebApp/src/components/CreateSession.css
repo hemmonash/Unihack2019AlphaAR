@@ -1,4 +1,4 @@
-body{
+.container1{
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -9,8 +9,10 @@ body{
 }
 
 .container{
+    width: 650px;
     padding: 50px;
     background-color: #eeeeee;
+
 }
 
 .item{

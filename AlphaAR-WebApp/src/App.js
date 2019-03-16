@@ -34,7 +34,7 @@ class App extends Component {
       <BrowserRouter>
       <Switch>
       
-       <Route path="/" component= {this.state.user ? (Home):(Login)} exact/>
+       <Route path="/" component= {this.state.user ? (Login):(Home)} exact/>
        <Route path="/createsession" component={CreateSession}/>
        <Route component={Error}/>
        
