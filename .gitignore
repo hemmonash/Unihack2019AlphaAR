@@ -1,2 +1,6 @@
 AlphaAR-WebApp/node_modules
 *.meta
+*.info
+*.dll
+*.bin
+*.cache
