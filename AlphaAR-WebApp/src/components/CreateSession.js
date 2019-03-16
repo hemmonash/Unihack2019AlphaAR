@@ -67,7 +67,7 @@ function OptionsWeek(props){
 
 function OptionsModel(props){
     //TODO: Show Models based on teachers
-    var model = ["Cell"];
+    var model = ["Cell", "House"];
 
     return(
         <Form className='item'>
@@ -168,6 +168,9 @@ class CreateSession extends React.Component{
         var week = this.state.week;
         var model = this.state.model;
 
+        console.log(this.state.model);
+
+        var teacherID = m94SacgB9kWSuwjhXtHSX1F5Z6B3;
         fire.database().ref('sessions/' + teacherID).set({
             modelId: subject+term+week+model
         });
