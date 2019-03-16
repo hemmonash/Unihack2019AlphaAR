@@ -67,7 +67,7 @@ function OptionsWeek(props){
 
 function OptionsModel(props){
     //TODO: Show Models based on teachers
-    var model = ["Cell", "House"];
+    var model = ["Cells", "House"];
 
     return(
         <Form className='item'>
@@ -99,7 +99,7 @@ class CreateSession extends React.Component{
             term: "01",
             week: "01",
             tab: "subject",
-            model: "Cell",
+            model: "Cells",
             subjects: [],
             uuid:''
         };
@@ -170,10 +170,14 @@ class CreateSession extends React.Component{
 
         console.log(this.state.model);
 
-        var teacherID = m94SacgB9kWSuwjhXtHSX1F5Z6B3;
+        var teacherID = "m94SacgB9kWSuwjhXtHSX1F5Z6B3";
         fire.database().ref('sessions/' + teacherID).set({
-            modelId: subject+term+week+model
+            dateTime: Date.now(),
+            modelId: subject+term+week+"_"+model,
+            sessionId: "345678"
         });
+
+
     }
 
 
@@ -216,10 +220,10 @@ class CreateSession extends React.Component{
 
                             <OptionsModel subjects={this.state.subjects} onSelect={this.handleChangeModel}/>
 
-                            <p>{this.state.subject}{this.state.term}{this.state.week}{this.state.model}</p>
+                            <p>{this.state.subject}{this.state.term}{this.state.week}_{this.state.model}</p>
 
                             <Button className='button' onClick={() => this.handleTab("week")}>Back</Button>
-                            <Button className='button' onClick={() => this.handleCreate()}>Create Session</Button>
+                            <Button className='button' onClick={() => this.handleCreate()} href="http://localhost:8080">Create Session</Button>
                         </Tab>
 
 
