@@ -25,7 +25,7 @@ public class MainUIHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // this is for the main firebase init
+
         string readConfig = ReadString("Assets/Resources/config.txt");
         string[] splitArray = readConfig.Split(char.Parse(";"));
         Debug.Log("Array of config: " + splitArray[0]);
@@ -49,7 +49,7 @@ public class MainUIHandler : MonoBehaviour
             }
         });
 
-        // add button listner fo the button start 
+        // add button listner
         startSessionButton.onClick.AddListener(StartExperience);
     }
 
