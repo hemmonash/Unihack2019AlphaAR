@@ -1,0 +1,1403 @@
+fileFormatVersion: 2
+guid: 6bbdcfd43cbc541598736bce2de0afcb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Animal Cell Maket
+    100002: //RootNode
+    100004: Camera001
+    100006: Camera001.Target
+    100008: Group001
+    100010: Line001
+    100012: Line001 1
+    100014: Line002
+    100016: Line002 1
+    100018: Line003
+    100020: Line003 1
+    100022: Line004
+    100024: Line004 1
+    100026: Line005
+    100028: Line005 1
+    100030: Line006
+    100032: Line006 1
+    100034: Line007
+    100036: Line007 1
+    100038: Line008
+    100040: Line008 1
+    100042: Object001
+    100044: Object001 1
+    100046: Object003
+    100048: Object004
+    100050: Object005
+    100052: Object006
+    100054: Object007
+    100056: Object008
+    100058: Object009
+    100060: Object010
+    100062: Object011
+    100064: Object013
+    100066: Object014
+    100068: Object015
+    100070: Object016
+    100072: Object017
+    100074: Object018
+    100076: Object019
+    100078: Object020
+    100080: Object021
+    100082: Object022
+    100084: Object023
+    100086: Object024
+    100088: Object026
+    100090: Object028
+    100092: Object031
+    100094: Object035
+    100096: Object036
+    100098: Object037
+    100100: Object038
+    100102: Object039
+    100104: Object040
+    100106: Object041
+    100108: Object042
+    100110: Object043
+    100112: Object044
+    100114: Object045
+    100116: Object046
+    100118: Object047
+    100120: Object048
+    100122: Object049
+    100124: Object050
+    100126: Object051
+    100128: Object052
+    100130: Object053
+    100132: Object054
+    100134: Object055
+    100136: Object056
+    100138: Object057
+    100140: Object058
+    100142: Object059
+    100144: Object060
+    100146: Object061
+    100148: Object062
+    100150: Object063
+    100152: Object064
+    100154: Object065
+    100156: Object066
+    100158: Object067
+    100160: Object068
+    100162: Object069
+    100164: Plane001
+    100166: Plane001 1
+    100168: Plane002
+    100170: Plane002 1
+    100172: Plane003
+    100174: Plane003 1
+    100176: Plane004
+    100178: Plane004 1
+    100180: Plane005
+    100182: Plane005 1
+    100184: Plane006
+    100186: Plane006 1
+    100188: Plane007
+    100190: Plane007 1
+    100192: Plane008
+    100194: Plane008 1
+    400000: Animal Cell Maket
+    400002: //RootNode
+    400004: Camera001
+    400006: Camera001.Target
+    400008: Group001
+    400010: Line001
+    400012: Line001 1
+    400014: Line002
+    400016: Line002 1
+    400018: Line003
+    400020: Line003 1
+    400022: Line004
+    400024: Line004 1
+    400026: Line005
+    400028: Line005 1
+    400030: Line006
+    400032: Line006 1
+    400034: Line007
+    400036: Line007 1
+    400038: Line008
+    400040: Line008 1
+    400042: Object001
+    400044: Object001 1
+    400046: Object003
+    400048: Object004
+    400050: Object005
+    400052: Object006
+    400054: Object007
+    400056: Object008
+    400058: Object009
+    400060: Object010
+    400062: Object011
+    400064: Object013
+    400066: Object014
+    400068: Object015
+    400070: Object016
+    400072: Object017
+    400074: Object018
+    400076: Object019
+    400078: Object020
+    400080: Object021
+    400082: Object022
+    400084: Object023
+    400086: Object024
+    400088: Object026
+    400090: Object028
+    400092: Object031
+    400094: Object035
+    400096: Object036
+    400098: Object037
+    400100: Object038
+    400102: Object039
+    400104: Object040
+    400106: Object041
+    400108: Object042
+    400110: Object043
+    400112: Object044
+    400114: Object045
+    400116: Object046
+    400118: Object047
+    400120: Object048
+    400122: Object049
+    400124: Object050
+    400126: Object051
+    400128: Object052
+    400130: Object053
+    400132: Object054
+    400134: Object055
+    400136: Object056
+    400138: Object057
+    400140: Object058
+    400142: Object059
+    400144: Object060
+    400146: Object061
+    400148: Object062
+    400150: Object063
+    400152: Object064
+    400154: Object065
+    400156: Object066
+    400158: Object067
+    400160: Object068
+    400162: Object069
+    400164: Plane001
+    400166: Plane001 1
+    400168: Plane002
+    400170: Plane002 1
+    400172: Plane003
+    400174: Plane003 1
+    400176: Plane004
+    400178: Plane004 1
+    400180: Plane005
+    400182: Plane005 1
+    400184: Plane006
+    400186: Plane006 1
+    400188: Plane007
+    400190: Plane007 1
+    400192: Plane008
+    400194: Plane008 1
+    2000000: Camera001
+    2100000: 'Material #45'
+    2100002: 'Material #46'
+    2100004: 'Material #48'
+    2100006: 'Material #49'
+    2100008: 'Material #43'
+    2100010: 'Material #52'
+    2100012: 'Material #53'
+    2100014: 'Material #55'
+    2100016: 'Material #56'
+    2100018: 'Material #54'
+    2100020: 'Material #51'
+    2100022: 'Material #42'
+    2100024: 'Material #44'
+    2100026: 'Material #50'
+    2100028: text
+    2100030: 'Material #3'
+    2100032: 'Material #77'
+    2100034: 'Material #41'
+    2100036: 'Material #47'
+    2100038: 'Material #1'
+    2300000: Animal Cell Maket
+    2300002: Line001
+    2300004: Line001 1
+    2300006: Line002
+    2300008: Line002 1
+    2300010: Line003
+    2300012: Line003 1
+    2300014: Line004
+    2300016: Line004 1
+    2300018: Line005
+    2300020: Line005 1
+    2300022: Line006
+    2300024: Line006 1
+    2300026: Line007
+    2300028: Line007 1
+    2300030: Line008
+    2300032: Line008 1
+    2300034: Object001
+    2300036: Object001 1
+    2300038: Object003
+    2300040: Object004
+    2300042: Object005
+    2300044: Object006
+    2300046: Object007
+    2300048: Object008
+    2300050: Object009
+    2300052: Object010
+    2300054: Object011
+    2300056: Object013
+    2300058: Object014
+    2300060: Object015
+    2300062: Object016
+    2300064: Object017
+    2300066: Object018
+    2300068: Object019
+    2300070: Object020
+    2300072: Object021
+    2300074: Object022
+    2300076: Object023
+    2300078: Object024
+    2300080: Object026
+    2300082: Object028
+    2300084: Object031
+    2300086: Object035
+    2300088: Object036
+    2300090: Object037
+    2300092: Object038
+    2300094: Object039
+    2300096: Object040
+    2300098: Object041
+    2300100: Object042
+    2300102: Object043
+    2300104: Object044
+    2300106: Object045
+    2300108: Object046
+    2300110: Object047
+    2300112: Object048
+    2300114: Object049
+    2300116: Object050
+    2300118: Object051
+    2300120: Object052
+    2300122: Object053
+    2300124: Object054
+    2300126: Object055
+    2300128: Object056
+    2300130: Object057
+    2300132: Object058
+    2300134: Object059
+    2300136: Object060
+    2300138: Object061
+    2300140: Object062
+    2300142: Object063
+    2300144: Object064
+    2300146: Object065
+    2300148: Object066
+    2300150: Object067
+    2300152: Object068
+    2300154: Object069
+    2300156: Plane001
+    2300158: Plane001 1
+    2300160: Plane002
+    2300162: Plane002 1
+    2300164: Plane003
+    2300166: Plane003 1
+    2300168: Plane004
+    2300170: Plane004 1
+    2300172: Plane005
+    2300174: Plane005 1
+    2300176: Plane006
+    2300178: Plane006 1
+    2300180: Plane007
+    2300182: Plane007 1
+    2300184: Plane008
+    2300186: Plane008 1
+    3300000: Animal Cell Maket
+    3300002: Line001
+    3300004: Line001 1
+    3300006: Line002
+    3300008: Line002 1
+    3300010: Line003
+    3300012: Line003 1
+    3300014: Line004
+    3300016: Line004 1
+    3300018: Line005
+    3300020: Line005 1
+    3300022: Line006
+    3300024: Line006 1
+    3300026: Line007
+    3300028: Line007 1
+    3300030: Line008
+    3300032: Line008 1
+    3300034: Object001
+    3300036: Object001 1
+    3300038: Object003
+    3300040: Object004
+    3300042: Object005
+    3300044: Object006
+    3300046: Object007
+    3300048: Object008
+    3300050: Object009
+    3300052: Object010
+    3300054: Object011
+    3300056: Object013
+    3300058: Object014
+    3300060: Object015
+    3300062: Object016
+    3300064: Object017
+    3300066: Object018
+    3300068: Object019
+    3300070: Object020
+    3300072: Object021
+    3300074: Object022
+    3300076: Object023
+    3300078: Object024
+    3300080: Object026
+    3300082: Object028
+    3300084: Object031
+    3300086: Object035
+    3300088: Object036
+    3300090: Object037
+    3300092: Object038
+    3300094: Object039
+    3300096: Object040
+    3300098: Object041
+    3300100: Object042
+    3300102: Object043
+    3300104: Object044
+    3300106: Object045
+    3300108: Object046
+    3300110: Object047
+    3300112: Object048
+    3300114: Object049
+    3300116: Object050
+    3300118: Object051
+    3300120: Object052
+    3300122: Object053
+    3300124: Object054
+    3300126: Object055
+    3300128: Object056
+    3300130: Object057
+    3300132: Object058
+    3300134: Object059
+    3300136: Object060
+    3300138: Object061
+    3300140: Object062
+    3300142: Object063
+    3300144: Object064
+    3300146: Object065
+    3300148: Object066
+    3300150: Object067
+    3300152: Object068
+    3300154: Object069
+    3300156: Plane001
+    3300158: Plane001 1
+    3300160: Plane002
+    3300162: Plane002 1
+    3300164: Plane003
+    3300166: Plane003 1
+    3300168: Plane004
+    3300170: Plane004 1
+    3300172: Plane005
+    3300174: Plane005 1
+    3300176: Plane006
+    3300178: Plane006 1
+    3300180: Plane007
+    3300182: Plane007 1
+    3300184: Plane008
+    3300186: Plane008 1
+    4300000: Animal Cell Maket
+    4300002: Object001
+    4300004: Object003
+    4300006: Object004
+    4300008: Object005
+    4300010: Object006
+    4300012: Object007
+    4300014: Object008
+    4300016: Object009
+    4300018: Object010
+    4300020: Object011
+    4300022: Object013
+    4300024: Object014
+    4300026: Object015
+    4300028: Object016
+    4300030: Object017
+    4300032: Object018
+    4300034: Object019
+    4300036: Object020
+    4300038: Object021
+    4300040: Object022
+    4300042: Object023
+    4300044: Object024
+    4300046: Object026
+    4300048: Object028
+    4300050: Object031
+    4300052: Object035
+    4300054: Object036
+    4300056: Object037
+    4300058: Object038
+    4300060: Object039
+    4300062: Object040
+    4300064: Object041
+    4300066: Object042
+    4300068: Object043
+    4300070: Object044
+    4300072: Object045
+    4300074: Object046
+    4300076: Object047
+    4300078: Object048
+    4300080: Object049
+    4300082: Object050
+    4300084: Object051
+    4300086: Object052
+    4300088: Object053
+    4300090: Object054
+    4300092: Object055
+    4300094: Object056
+    4300096: Object057
+    4300098: Object058
+    4300100: Object059
+    4300102: Object060
+    4300104: Object061
+    4300106: Object062
+    4300108: Object063
+    4300110: Object064
+    4300112: Object065
+    4300114: Object066
+    4300116: Object067
+    4300118: Object068
+    4300120: Object069
+    4300122: Line001
+    4300124: Plane001
+    4300126: Plane002
+    4300128: Line002
+    4300130: Line003
+    4300132: Plane003
+    4300134: Line004
+    4300136: Plane004
+    4300138: Line005
+    4300140: Plane005
+    4300142: Line006
+    4300144: Plane006
+    4300146: Plane007
+    4300148: Line007
+    4300150: Line008
+    4300152: Plane008
+    4300154: Object001
+    4300156: Line008
+    4300158: Plane007
+    4300160: Line001
+    4300162: Line007
+    4300164: Plane002
+    4300166: Line002
+    4300168: Plane003
+    4300170: Line003
+    4300172: Line006
+    4300174: Line004
+    4300176: Plane008
+    4300178: Plane006
+    4300180: Plane004
+    4300182: Plane001
+    4300184: Plane005
+    4300186: Line005
+    7400000: Take 001
+    7400002: explode
+    7400004: explode_reverse
+    7400006: Mitochondria
+    7400008: Ribosomes
+    7400010: Endoplasmic Reticulum
+    7400012: Golgi Apparatus
+    7400014: Microfilament
+    7400016: Nucleus
+    7400018: Chromatin
+    7400020: Centrosome
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+    6000828045688606266: Camera001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 192
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: explode
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: explode_reverse
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Mitochondria
+      takeName: Take 001
+      firstFrame: 89
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ribosomes
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Endoplasmic Reticulum
+      takeName: Take 001
+      firstFrame: 112
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Golgi Apparatus
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Microfilament
+      takeName: Take 001
+      firstFrame: 129
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Nucleus
+      takeName: Take 001
+      firstFrame: 138
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chromatin
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 157
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Centrosome
+      takeName: Take 001
+      firstFrame: 158
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: both animation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Animal Cell Maket
+      parentName: both animation(Clone)
+      position: {x: 0.025238132, y: 0.016348787, z: 0.05574833}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object001 1
+      parentName: both animation(Clone)
+      position: {x: -0.01376764, y: -0.06996402, z: 0.023848329}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object003
+      parentName: both animation(Clone)
+      position: {x: -0.04152417, y: 0.0060904087, z: 0.12062681}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object004
+      parentName: both animation(Clone)
+      position: {x: -0.04511359, y: 0.007302437, z: 0.108979374}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object005
+      parentName: both animation(Clone)
+      position: {x: -0.03666451, y: 0.005672867, z: 0.10094635}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object006
+      parentName: both animation(Clone)
+      position: {x: -0.033720553, y: 0.0014441453, z: 0.103012666}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object007
+      parentName: both animation(Clone)
+      position: {x: 0.014046097, y: 0.0019967882, z: 0.13195838}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object008
+      parentName: both animation(Clone)
+      position: {x: 0.067767814, y: 0.0028645634, z: 0.09682332}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object009
+      parentName: both animation(Clone)
+      position: {x: 0.042198703, y: 0.068436205, z: 0.04812336}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object010
+      parentName: both animation(Clone)
+      position: {x: -0.054469515, y: 0.025479127, z: 0.049869478}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object011
+      parentName: both animation(Clone)
+      position: {x: 0.06889336, y: 0.005523934, z: 0.050074663}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object013
+      parentName: both animation(Clone)
+      position: {x: 0.0019514161, y: 0.041173723, z: 0.08518702}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object014
+      parentName: both animation(Clone)
+      position: {x: 0.07182864, y: 0.0027843553, z: 0.019612672}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object015
+      parentName: both animation(Clone)
+      position: {x: -0.035096284, y: 0.06858086, z: 0.05825731}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object016
+      parentName: both animation(Clone)
+      position: {x: 0.06894942, y: -0.0016067125, z: 0.115881324}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object017
+      parentName: both animation(Clone)
+      position: {x: 0.06805361, y: -0.0017408753, z: 0.11806943}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object018
+      parentName: both animation(Clone)
+      position: {x: 0.069849424, y: -0.0016181107, z: 0.11799787}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object019
+      parentName: both animation(Clone)
+      position: {x: 0.072615825, y: -0.0017454148, z: 0.116142124}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object020
+      parentName: both animation(Clone)
+      position: {x: 0.071568474, y: -0.0016121828, z: 0.11422264}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object021
+      parentName: both animation(Clone)
+      position: {x: 0.07354886, y: -0.0016064912, z: 0.11479121}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object022
+      parentName: both animation(Clone)
+      position: {x: 0.075754374, y: -0.0017454148, z: 0.11365217}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object023
+      parentName: both animation(Clone)
+      position: {x: 0.077248275, y: -0.0016064912, z: 0.112998664}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object024
+      parentName: both animation(Clone)
+      position: {x: 0.075828016, y: -0.0016121828, z: 0.111439034}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object026
+      parentName: both animation(Clone)
+      position: {x: 0.048808124, y: 0.00010932923, z: 0.11244584}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object028
+      parentName: both animation(Clone)
+      position: {x: 0.051535416, y: -0.000029594423, z: 0.11173948}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object031
+      parentName: both animation(Clone)
+      position: {x: 0.055018604, y: -0.000029594423, z: 0.1093632}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object035
+      parentName: both animation(Clone)
+      position: {x: 0.038889613, y: 0.000109107976, z: 0.08998863}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object036
+      parentName: both animation(Clone)
+      position: {x: 0.018517395, y: 0.00009685517, z: 0.108799666}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object037
+      parentName: both animation(Clone)
+      position: {x: -0.0036663667, y: 0.00009507753, z: 0.124945104}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object038
+      parentName: both animation(Clone)
+      position: {x: -0.031468842, y: 0.00009507753, z: 0.089840464}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object039
+      parentName: both animation(Clone)
+      position: {x: -0.050379764, y: 0.00009685517, z: 0.06595923}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object040
+      parentName: both animation(Clone)
+      position: {x: -0.07310172, y: 0.00009507753, z: 0.056214295}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object041
+      parentName: both animation(Clone)
+      position: {x: 0.05781367, y: 0.00009685517, z: 0.07711512}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object042
+      parentName: both animation(Clone)
+      position: {x: 0.08261945, y: 0.00009507753, z: 0.073910706}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object043
+      parentName: both animation(Clone)
+      position: {x: 0.04373639, y: 0.050533738, z: 0.04542154}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object044
+      parentName: both animation(Clone)
+      position: {x: 0.023496952, y: 0.062369313, z: 0.04542154}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object045
+      parentName: both animation(Clone)
+      position: {x: -0.07367253, y: 0.03987355, z: 0.045246966}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object046
+      parentName: both animation(Clone)
+      position: {x: -0.079344, y: 0.02123846, z: 0.045247547}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object047
+      parentName: both animation(Clone)
+      position: {x: -0.06466675, y: 0.02219417, z: 0.04528218}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object048
+      parentName: both animation(Clone)
+      position: {x: 0.019477632, y: 0.022264298, z: 0.056023598}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object049
+      parentName: both animation(Clone)
+      position: {x: 0.0106924595, y: 0.028401017, z: 0.05601897}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object050
+      parentName: both animation(Clone)
+      position: {x: 0.024146942, y: 0.013185677, z: 0.055872165}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object051
+      parentName: both animation(Clone)
+      position: {x: -0.06620554, y: -0.063530564, z: 0.00047003178}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object052
+      parentName: both animation(Clone)
+      position: {x: -0.07391462, y: -0.06353049, z: 0.012641449}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object053
+      parentName: both animation(Clone)
+      position: {x: 0.0013252717, y: 0.005557869, z: 0.055749193}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object054
+      parentName: both animation(Clone)
+      position: {x: 0.008389969, y: 0.013703706, z: 0.07755008}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object055
+      parentName: both animation(Clone)
+      position: {x: 0.005158448, y: 0.028570894, z: 0.06588611}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object056
+      parentName: both animation(Clone)
+      position: {x: 0.024781939, y: 0.0017044068, z: 0.08695462}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object057
+      parentName: both animation(Clone)
+      position: {x: 0.035811257, y: 0.015905838, z: 0.059789162}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object058
+      parentName: both animation(Clone)
+      position: {x: 0.012882737, y: 0.03935039, z: 0.050876085}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object059
+      parentName: both animation(Clone)
+      position: {x: -0.027830414, y: 0.01856498, z: 0.062497105}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object060
+      parentName: both animation(Clone)
+      position: {x: -0.008435258, y: 0.0017565843, z: 0.08284822}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object061
+      parentName: both animation(Clone)
+      position: {x: -0.013152482, y: 0.0013951112, z: 0.09704948}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object062
+      parentName: both animation(Clone)
+      position: {x: 0.00024467468, y: 0.093289725, z: 0.04542154}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object063
+      parentName: both animation(Clone)
+      position: {x: 0.0117902225, y: 0.08890267, z: 0.04542154}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera001
+      parentName: both animation(Clone)
+      position: {x: 0.40136784, y: 0.2868905, z: 0.6236754}
+      rotation: {x: -0.0859451, y: -0.45052582, z: 0.16651525, w: 0.8728761}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera001.Target
+      parentName: both animation(Clone)
+      position: {x: -0.06800931, y: -0.033931732, z: -0.03680475}
+      rotation: {x: -0.18350324, y: 0.26050228, z: 0.050503712, w: 0.94652766}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: Object064
+      parentName: both animation(Clone)
+      position: {x: 0.059746783, y: 0.061522342, z: -0.0022229005}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object065
+      parentName: both animation(Clone)
+      position: {x: -0.038304508, y: 0.043527395, z: 0.009002167}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object066
+      parentName: both animation(Clone)
+      position: {x: 0.023128605, y: 0.0098001715, z: -0.0016293946}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object067
+      parentName: both animation(Clone)
+      position: {x: 0.05125314, y: -0.0347175, z: 0.024720766}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object068
+      parentName: both animation(Clone)
+      position: {x: 0.028838754, y: -0.048792817, z: 0.097744405}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object069
+      parentName: both animation(Clone)
+      position: {x: -0.061722614, y: -0.042488497, z: 0.050993014}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Line001
+      parentName: both animation(Clone)
+      position: {x: -0.048159044, y: 0.08309786, z: 0.1584511}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 0.016990477, y: 0.016990477, z: 0.016990477}
+    - name: Plane001
+      parentName: both animation(Clone)
+      position: {x: -0.07195839, y: 0.18517695, z: 0.16393061}
+      rotation: {x: -0.04294547, y: 0.17494762, z: -0.0076381885, w: 0.98361105}
+      scale: {x: 0.0004933781, y: 0.0004933781, z: 0.000493378}
+    - name: Plane002
+      parentName: both animation(Clone)
+      position: {x: -0.107083015, y: 0.040673528, z: 0.15529384}
+      rotation: {x: -0.04856392, y: 0.17772564, z: -0.012048135, w: 0.9828072}
+      scale: {x: 0.0010558363, y: 0.0010558363, z: 0.0010558364}
+    - name: Line002
+      parentName: both animation(Clone)
+      position: {x: -0.072318636, y: 0.007949662, z: 0.12899885}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 0.016882246, y: 0.016882246, z: 0.016882246}
+    - name: Line003
+      parentName: both animation(Clone)
+      position: {x: 0.08545818, y: -0.102029875, z: 0.046798665}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 0.027714996, y: 0.027714996, z: 0.027714996}
+    - name: Plane003
+      parentName: both animation(Clone)
+      position: {x: 0.209672, y: 0.0037374576, z: 0.11048951}
+      rotation: {x: -0.042205222, y: 0.2523339, z: -0.011017134, w: 0.9666566}
+      scale: {x: 0.0004339929, y: 0.0004339928, z: 0.00043399286}
+    - name: Line004
+      parentName: both animation(Clone)
+      position: {x: 0.032625444, y: -0.04195668, z: 0.17533036}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 0.0064227222, y: 0.0064227222, z: 0.0064227222}
+    - name: Plane004
+      parentName: both animation(Clone)
+      position: {x: -0.006618393, y: -0.014517594, z: 0.24055205}
+      rotation: {x: -0.040019106, y: 0.21625413, z: -0.017352968, w: 0.97536224}
+      scale: {x: 0.0003969462, y: 0.00039694624, z: 0.0003969462}
+    - name: Line005
+      parentName: both animation(Clone)
+      position: {x: 0.063362814, y: -0.06540164, z: 0.13320474}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.0042035193, y: 0.0042035193, z: 0.0042035193}
+    - name: Plane005
+      parentName: both animation(Clone)
+      position: {x: 0.14630316, y: -0.009578515, z: 0.2466336}
+      rotation: {x: -0.0042827264, y: 0.251812, z: -0.0041966042, w: 0.96775764}
+      scale: {x: 0.00049757597, y: 0.00049757614, z: 0.000497576}
+    - name: Line006
+      parentName: both animation(Clone)
+      position: {x: -0.001912613, y: 0.09934975, z: 0.05289936}
+      rotation: {x: 0.00000006657903, y: -0, z: -0, w: 1}
+      scale: {x: 0.015348036, y: 0.015348036, z: 0.015348036}
+    - name: Plane006
+      parentName: both animation(Clone)
+      position: {x: -0.01029828, y: 0.23399632, z: 0.06662223}
+      rotation: {x: -0.10776146, y: 0.20493565, z: 0.009615998, w: 0.97277766}
+      scale: {x: 0.0006312993, y: 0.00063129934, z: 0.0006312993}
+    - name: Plane007
+      parentName: both animation(Clone)
+      position: {x: 0.19897087, y: -0.056061342, z: 0.22566696}
+      rotation: {x: -0.041966185, y: 0.2424441, z: -0.010363789, w: 0.96920186}
+      scale: {x: 0.00070054486, y: 0.0007005448, z: 0.0007005446}
+    - name: Line007
+      parentName: both animation(Clone)
+      position: {x: 0.11091972, y: -0.050011635, z: 0.094118275}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.022313975, y: 0.022313975, z: 0.022313975}
+    - name: Line008
+      parentName: both animation(Clone)
+      position: {x: 0.025661835, y: 0.00055713655, z: 0.047992695}
+      rotation: {x: 0.26625806, y: 0.41687214, z: -0.12914799, w: 0.8594446}
+      scale: {x: 0.0020761648, y: 0.0020761648, z: 0.0020761644}
+    - name: Plane008
+      parentName: both animation(Clone)
+      position: {x: 0.1929525, y: 0.19013068, z: 0.032962464}
+      rotation: {x: -0.041854423, y: 0.28132206, z: -0.012282612, w: 0.95862156}
+      scale: {x: 0.00229112, y: 0.0022911206, z: 0.0022911197}
+    - name: Object001
+      parentName: both animation(Clone)
+      position: {x: 0.0012299957, y: 0, z: 0.045277957}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Group001
+      parentName: both animation(Clone)
+      position: {x: 0.030218218, y: 0.05172186, z: 0.084679924}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Line008 1
+      parentName: Group001
+      position: {x: -0.032995187, y: 0.019515805, z: -0.018663835}
+      rotation: {x: 0.36969906, y: -0.51265323, z: 0.6027623, w: -0.4870184}
+      scale: {x: -0.0014279957, y: -0.0014279968, z: -0.0014279964}
+    - name: Plane007 1
+      parentName: Group001
+      position: {x: 0.069633834, y: 0.018884476, z: 0.09031006}
+      rotation: {x: -0.70899016, y: -0.024066716, z: -0.025503796, w: 0.704346}
+      scale: {x: -0.0042320187, y: -0.0042320187, z: -0.0042320197}
+    - name: Line001 1
+      parentName: Group001
+      position: {x: -0.06543074, y: -0.03315734, z: -0.034385636}
+      rotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.49999994}
+      scale: {x: 0.0009329366, y: 0.0009329366, z: 0.0009329366}
+    - name: Line007 1
+      parentName: Group001
+      position: {x: -0.008582165, y: 0.019464009, z: -0.057745963}
+      rotation: {x: 0.43072158, y: -0.5607841, z: 0.5607842, w: -0.4307217}
+      scale: {x: -0.0026606584, y: -0.0026606584, z: -0.0026606584}
+    - name: Plane002 1
+      parentName: Group001
+      position: {x: 0.0993626, y: 0.0073589482, z: 0.016724443}
+      rotation: {x: -0.7082505, y: -0.01191729, z: -0.018034283, w: 0.7056302}
+      scale: {x: -0.008198879, y: -0.0077019576, z: -0.0079543}
+    - name: Line002 1
+      parentName: Group001
+      position: {x: 0.03618889, y: 0.030800926, z: -0.041103482}
+      rotation: {x: 0.50000006, y: -0.5, z: 0.50000006, w: -0.5}
+      scale: {x: -0.0033364177, y: -0.0033364177, z: -0.0033364177}
+    - name: Plane003 1
+      parentName: Group001
+      position: {x: -0.111507766, y: 0.021870237, z: 0.09031006}
+      rotation: {x: 0.706913, y: 0.016554613, z: 0.016554613, w: 0.706913}
+      scale: {x: 0.0026824528, y: 0.0024101124, z: 0.0024101126}
+    - name: Line003 1
+      parentName: Group001
+      position: {x: -0.06976149, y: 0.026362546, z: 0.0188537}
+      rotation: {x: 0.43072155, y: 0.5607842, z: 0.5607843, w: 0.4307215}
+      scale: {x: 0.0028635694, y: 0.0028635694, z: 0.0028635694}
+    - name: Line006 1
+      parentName: Group001
+      position: {x: -0.039165337, y: -0.016359445, z: -0.05073925}
+      rotation: {x: -0.646938, y: 0.646938, z: -0.28543168, w: 0.28543168}
+      scale: {x: -0.019644957, y: -0.019644957, z: -0.019644957}
+    - name: Line004 1
+      parentName: Group001
+      position: {x: 0.037097543, y: -0.01074054, z: -0.045461982}
+      rotation: {x: 0.646938, y: -0.646938, z: 0.28543162, w: -0.28543162}
+      scale: {x: -0.017580006, y: -0.017580006, z: -0.017580006}
+    - name: Plane008 1
+      parentName: Group001
+      position: {x: -0.0137056, y: 0.018884476, z: 0.14239368}
+      rotation: {x: -0.7124426, y: -0.02273011, z: -0.0014636455, w: 0.70136076}
+      scale: {x: -0.0013582438, y: -0.0013582439, z: -0.0013582445}
+    - name: Plane006 1
+      parentName: Group001
+      position: {x: -0.037542406, y: -0.14104849, z: -0.06716838}
+      rotation: {x: -0.6890316, y: 0.020755515, z: -0.0150657715, w: 0.7242774}
+      scale: {x: -0.0005514832, y: -0.0007078744, z: -0.00054879696}
+    - name: Plane004 1
+      parentName: Group001
+      position: {x: 0.112297915, y: -0.05062154, z: -0.046350062}
+      rotation: {x: -0.7044549, y: -0.02097616, z: -0.011153052, w: 0.70935106}
+      scale: {x: -0.0010700494, y: -0.00096183445, z: -0.00096183474}
+    - name: Plane001 1
+      parentName: Group001
+      position: {x: -0.10074401, y: -0.03686744, z: 0.014129425}
+      rotation: {x: 0.70666313, y: 0.025046682, z: 0.02504668, w: 0.7066631}
+      scale: {x: 0.0020186885, y: 0.0015672684, z: 0.0015672683}
+    - name: Plane005 1
+      parentName: Group001
+      position: {x: 0.071589395, y: -0.13403769, z: -0.076418675}
+      rotation: {x: -0.7083588, y: -0.0026475461, z: -0.0020253458, w: 0.70584464}
+      scale: {x: -0.003919855, y: -0.003965429, z: -0.003942615}
+    - name: Line005 1
+      parentName: Group001
+      position: {x: 0.005055256, y: -0.032682426, z: -0.05047417}
+      rotation: {x: 0.646938, y: -0.646938, z: 0.2854316, w: -0.28543162}
+      scale: {x: -0.021004757, y: -0.021004757, z: -0.021004757}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

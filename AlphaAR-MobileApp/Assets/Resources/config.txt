@@ -1,0 +1,1 @@
+8;Mitochondria;Centrosome;Microfilament;Chromatin;Endoplasmic Reticulum;Golgi Apparatus;Ribosomes;Nucleus

@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 0
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "1067032469524-7158oo22m7tq971q3pig9odn9a551b8f.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3x1y56yQ28TDQHxmHKf_v40y85w7Atas"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:1067032469524:ios:9beefc6070aec54c", 
+        "android_client_info": {
+          "package_name": "com.AAR.AlphaAR"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "alpha-ar.appspot.com", 
+    "project_id": "alpha-ar", 
+    "firebase_url": "https://alpha-ar.firebaseio.com", 
+    "project_number": "1067032469524"
+  }
+}
