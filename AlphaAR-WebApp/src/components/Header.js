@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {  Navbar } from 'react-bootstrap';
+import {  Navbar, Button } from 'react-bootstrap';
 import './Header.css'
 
 
@@ -21,9 +21,16 @@ class Header extends Component {
            
           />
           {'  Manage Session'}
+          
         </Navbar.Brand>
-        
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Text>
+      Hi, <a href="logOut">{this.props.fName} ▼ </a>
+    </Navbar.Text>
+    </Navbar.Collapse>
       </Navbar>
+      
     )
   }
   }; 

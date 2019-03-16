@@ -7,8 +7,16 @@ render(){
         <div class="jumbotron vertical-center container-fluid" id="cont1">
         <div class="container text-center" id="cont">
        
-            <h3>There is currently no session running.</h3>
+            <h5>There is currently no session running.</h5>
             <br></br>
+            <img 
+        src="https://i.ibb.co/ySrzGsT/startup-1.png"
+        width="60"
+      />
+      <br>
+      </br>
+      < br>
+      </br>
             <Button variant="primary">Create Session</Button>
        
         </div>

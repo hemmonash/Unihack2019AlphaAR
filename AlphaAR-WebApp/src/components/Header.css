@@ -5,6 +5,19 @@ img {
 }
 .navbar{
     height: 70px;
-    background-image: url("https://wallpaperplay.com/walls/full/a/5/9/37701.jpg");
+   
+    background-image: linear-gradient(to right,#03a9f4,#01579b);
+  
     
 }
+
+.navbar-brand{
+    font-size: 26px !important;
+}
+
+.navbar-text{
+    font-size: 20px;
+    color: white;
+    
+}
+
