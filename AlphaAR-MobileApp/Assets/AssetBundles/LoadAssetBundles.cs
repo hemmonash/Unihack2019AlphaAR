@@ -3,6 +3,7 @@
 public class LoadAssetBundles : MonoBehaviour {
 
     private AssetBundle loadedAssetBundle;
+    [SerializeField] private Transform imageTarget;
     [SerializeField] private string path;
     [SerializeField] private string assetName;
 
@@ -19,6 +20,7 @@ public class LoadAssetBundles : MonoBehaviour {
     private void InstantiateObjectFromBundle(string assetName)
     {
         var prefab = loadedAssetBundle.LoadAsset(assetName);
+        ((Transform)prefab).SetParent(imageTarget);
         Instantiate(prefab);
     }
 }
