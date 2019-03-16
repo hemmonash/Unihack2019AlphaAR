@@ -4,7 +4,7 @@ import './CreateSession.css';
 import fire from "../config/fire";
 
 function OptionsSubject(props) {
-    var subjects = ['Year 7 Science', 'Year 8 Science'];
+    var subjects = ["y07sci01", "y08sci01"];
 
     return (
         <Form className='item'>
@@ -64,6 +64,27 @@ function OptionsWeek(props){
     )
 }
 
+function OptionsModel(props){
+    //TODO: Show Models based on teachers
+    var model = ["Cell"];
+
+    return(
+        <Form className='item'>
+            <Form.Group controlID="exampleForm.ControlSelect1">
+                <Form.Label>Choose a Term</Form.Label>
+                <Form.Control as="select"
+                              onChange={props.onSelect}>
+                    {model.map(function (model) {
+                        return (
+                            <option key={model} value={model}>{model}</option>
+                        )
+                    })}
+                </Form.Control>
+            </Form.Group>
+        </Form>
+    )
+}
+
 //
 // function Option
 
@@ -73,10 +94,11 @@ class CreateSession extends React.Component{
         super(props);
 
         this.state = {
-            subject: "Year 7 Science",
+            subject: "y07sci01",
             term: "01",
             week: "01",
             tab: "subject",
+            model: "Cell",
             subjects: []
         };
 
@@ -86,6 +108,7 @@ class CreateSession extends React.Component{
         this.handleChangeWeek = this.handleChangeWeek.bind(this);
         this.handleTab = this.handleTab.bind(this);
         this.firebasestuff = this.firebasestuff.bind(this);
+        this.handleCreate=this.handleCreate.bind(this);
     }
 
     componentDidMount(){
@@ -122,8 +145,23 @@ class CreateSession extends React.Component{
         this.setState({ week: e.target.value });
     };
 
+    handleChangeModel(e){
+        this.setState({ model: e.target.value });
+    };
+
     handleTab(e) {
         this.setState({tab: e});
+    }
+
+    handleCreate(){
+        var subject = this.state.subject;
+        var term = this.state.term;
+        var week = this.state.week;
+        var model = this.state.model;
+
+        fire.database().ref('sessions/' + teacherID).set({
+            modelId: subject+term+week+model
+        });
     }
 
 
@@ -131,7 +169,7 @@ class CreateSession extends React.Component{
     render(){
         return(
             <div className='container1'>
-                <div className='container'>
+                <div className='container rounded'>
 
                     <Tabs activeKey={this.state.tab} className='tabItem'>
                         <Tab eventKey="subject" title="Subject" disabled>
@@ -155,14 +193,22 @@ class CreateSession extends React.Component{
 
                             <OptionsWeek subjects={this.state.subjects} onSelect={this.handleChangeWeek}/>
 
-                            <p>{this.state.subject}</p>
-                            <p>{this.state.term}</p>
-                            <p>{this.state.week}</p>
-
                             <Button className='button' onClick={() => this.handleTab("term")}>Back</Button>
-                            <Button className='button'>Create Session</Button>
+                            <Button className='button' onClick={() => this.handleTab("model")}>Next</Button>
 
                         </Tab>
+
+                        <Tab eventKey="model" title="Model" disabled>
+
+                            <OptionsModel subjects={this.state.subjects} onSelect={this.handleChangeModel}/>
+
+                            <p>{this.state.subject}{this.state.term}{this.state.week}{this.state.model}</p>
+
+                            <Button className='button' onClick={() => this.handleTab("week")}>Back</Button>
+                            <Button className='button' onClick={() => this.handleCreate()}>Create Session</Button>
+                        </Tab>
+
+
                     </Tabs>
                 </div>
             </div>
