@@ -1,7 +1,11 @@
 import React,{Component} from 'react';
 import { Jumbotron, Button} from 'react-bootstrap';
+import { createBrowserHistory } from 'history';
 import './Home_nosession.css'
+
+
 class Home_nosession extends Component {
+   
     render() {
         return (
             <div class="jumbotron vertical-center container-fluid" id="cont1">
@@ -15,6 +19,7 @@ class Home_nosession extends Component {
                     />
                     <br></br>
                     <br></br>
+                  
                     <Button variant="primary" href="/createsession" >Create Session</Button>
 
                 </div>

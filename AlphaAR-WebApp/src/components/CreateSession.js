@@ -100,7 +100,8 @@ class CreateSession extends React.Component{
             week: "01",
             tab: "subject",
             model: "Cell",
-            subjects: []
+            subjects: [],
+            uuid:''
         };
 
 
@@ -112,8 +113,15 @@ class CreateSession extends React.Component{
         this.handleCreate=this.handleCreate.bind(this);
     }
 
-    componentDidMount(){
+    componentWillReceiveProps(){
         this.firebasestuff()
+        fire.auth().onAuthStateChanged((user) => {
+            if (user) {
+                this.setState({uuid:user.uid}, function () {
+                    console.log("UUId:"+this.state.uid);
+                });
+            }
+        });
     }
 
     firebasestuff(){
