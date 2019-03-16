@@ -8,7 +8,7 @@ public class APIUtils : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -17,12 +17,14 @@ public class APIUtils : MonoBehaviour
 
     }
 
+
+
     // Get topic summary from Wikipedia
-    public string GetWikiSummary(string topic)
+    public IEnumerator GetWikiSummary(string topic, System.Action<string> todo)
     {
-        string wikiJSON = "";
-        StartCoroutine(GetWikiJSON(topic, result => wikiJSON = result));
-        return ParseSummaryFromJSON(wikiJSON);
+        string summary = "";
+        yield return StartCoroutine(GetWikiJSON(topic, result => summary = ParseSummaryFromJSON(result)));
+        todo(summary);
     }
 
     // Send request to Wikipedia for topic's page
