@@ -44,7 +44,7 @@ render(){
 </Table>
             <br></br>
             
-          
+          <Button variant="primary">Stop Session</Button>
       
         </div>
         
@@ -53,4 +53,4 @@ render(){
 
 }
 export default Home_session;
-//  <Button variant="primary">Stop Session</Button>
+//  <

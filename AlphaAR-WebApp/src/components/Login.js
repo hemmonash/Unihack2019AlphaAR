@@ -32,7 +32,7 @@ class Login extends Component {
     render() {
       return (
         <div class="backg ">
-            <div class="jumbotron vertical-center container-fluid">
+            <div class="jumbotron vertical-center container-fluid" id="jumbo">
                 <div class="container text-center">
                     <form>
                         <img

@@ -23,6 +23,7 @@ class App extends Component {
     fire.auth().onAuthStateChanged((user)=> {
       if (user){
         this.setState({user});
+        console.log(user.uid)
       } else{
         this.setState({user:null});
       }
@@ -33,8 +34,8 @@ class App extends Component {
     return (
       <BrowserRouter>
       <Switch>
-      
-       <Route path="/" component= {this.state.user ? (Login):(Home)} exact/>
+    
+       <Route path="/" component= {this.state.user ? (Home):(Login)} exact/>
        <Route path="/createsession" component={CreateSession}/>
        <Route component={Error}/>
        
