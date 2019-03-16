@@ -20,32 +20,32 @@ class Home_session extends Component {
 render(){
 
     return(
-        <div class="jumbotron vertical-center container-fluid" id="cont1">
-        
-        
-        <Table class="table table-striped">
-  <thead>
-    <tr>
-      
-      <th>Session Detail</th>
-      <th>Time Remaining</th>
-     
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    
-      <td> {this.props.subjectId}{this.props.term}{this.props.week}{this.props.modelName}</td>
-      <td>29 min</td>
-     
-    </tr>
-   
-  </tbody>
-</Table>
-            <br></br>
-            
-          <Button variant="primary">Stop Session</Button>
-      
+        <div className='container1'>
+
+            <div className="container">
+                <Table className="table table-striped">
+                  <thead>
+                    <tr>
+
+                      <th>Session Detail</th>
+                      <th>Time Remaining</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+
+                      <td> {this.props.subjectId}{this.props.term}{this.props.week}{this.props.modelName}</td>
+                      <td>29 min</td>
+
+                    </tr>
+
+                  </tbody>
+                </Table>
+                <div className='container2'>
+                    <Button variant="primary">Stop Session</Button>
+                </div>
+            </div>
         </div>
         
     )
