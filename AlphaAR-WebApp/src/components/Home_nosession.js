@@ -20,7 +20,6 @@ render(){
             <Button variant="primary">Create Session</Button>
        
         </div>
-        </div>
     )
 }
 
