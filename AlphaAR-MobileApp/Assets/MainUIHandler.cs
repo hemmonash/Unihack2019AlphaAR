@@ -70,47 +70,6 @@ public class MainUIHandler : MonoBehaviour
         {
             // move to ARScene
             Debug.Log("Successful Auth, switching to AR scene");
-<<<<<<< HEAD
-            SceneManager.LoadScene("ARScene");
-        }
-    }
-
-    // firebase auth function
-    public void FirebaseSessionAuthFunc()
-    {
-        // for return
-
-        String queryString = System.DateTime.Now.ToString("yyyy-MM-dd-HH");
-        //Debug.Log(queryString);
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://alpha-ar.firebaseio.com/");
-        // Get the root reference location of the database.
-        DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-        FirebaseDatabase.DefaultInstance.GetReference(queryString).GetValueAsync().ContinueWith(task =>
-        {
-            if (task.IsFaulted)
-            {
-                // failed authentication
-
-                // Handle the error...
-                Debug.Log("Could not find collection");
-            }
-            else if (task.IsCompleted)
-            {
-
-                // authentication successful
-                DataSnapshot snapshot = task.Result;
-                // get the session id and compare the entered ID
-
-                // get the session code from firebase db and comapre to entered
-                String sessionIDEntered = sessionIDInput.text;
-                Debug.Log("snapshot value: " + snapshot.Value.ToString());
-                if (snapshot.Value.ToString() == sessionIDEntered.ToString())
-                {
-                    // Set true and then transition
-                    // redirect now
-                    // also get the number of prefabs required
-                    reuqiredNumberOfPrefabs = 8;
-=======
             SceneManager.LoadScene("ARScene");
         }
     }
@@ -150,7 +109,6 @@ public class MainUIHandler : MonoBehaviour
                     // redirect now
                     // also get the number of prefabs required
                     reuqiredNumberOfPrefabs = 8;
->>>>>>> origin/master
                     string readConfig = ReadString("Assets/config.text");
                     string[] splitArray = readConfig.Split(char.Parse(";"));
                     result = true;

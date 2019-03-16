@@ -17,7 +17,7 @@ public class FirebaseUtils : MonoBehaviour
     // Start is called before the first frame update
     async void Start()
     {
-
+        GetAssetBundleFromSession("123456");
     }
 
     // Update is called once per frame
@@ -26,18 +26,17 @@ public class FirebaseUtils : MonoBehaviour
         
     }
 
-    public async void GetAssetBundleFromSession(string sessionId, System.Action<AssetBundle> todo)
+    public async void GetAssetBundleFromSession(string sessionId)
     {
-        /*Task<string> modelIdTask = GetModelIdAsync(sessionId);
+        Task<string> modelIdTask = GetModelIdAsync(sessionId);
         string modelId = await modelIdTask;
 
         Task<Uri> modelUriTask = GetModelAssetBundleUriAsync(modelId);
         Uri modelUri = await modelUriTask;
-        string modelUriStr = modelUri.ToString();*/
+        string modelUriStr = modelUri.ToString();
 
         AssetBundle assetBundle = null;
-        StartCoroutine(GetModelAssetBundle("https://firebasestorage.googleapis.com/v0/b/alpha-ar-1e5d6.appspot.com/o/y07%2Fsci01%2F01%2F05%2Fcells?alt=media&token=fd9a86dd-7873-4b37-9bc0-d9e67a9db781", result => assetBundle = result));
-        StartCoroutine(InstantiateModel(assetBundle));
+        StartCoroutine(GetModelAssetBundle("https://firebasestorage.googleapis.com/v0/b/alpha-ar-1e5d6.appspot.com/o/y07%2Fsci01%2F01%2F05%2Fcells?alt=media&token=fd9a86dd-7873-4b37-9bc0-d9e67a9db781", result => StartCoroutine(InstantiateModel(result))));
     }
 
     // Grab the model and asset bundle ID from Firebase RTDB
@@ -78,10 +77,14 @@ public class FirebaseUtils : MonoBehaviour
 
         // Iterate through folders in Storage as per the modelId
         string[] path = modelIdParser(modelId);
-        foreach (string folder in path)
+        for(int i = 0; i < path.Length; i++)
         {
-            reference = reference.Child(folder.ToLower());
-            modelName = folder.ToLower();
+            if (i == path.Length - 1)
+            {
+                path[i] = path[i].Substring(1);
+            }
+            reference = reference.Child(path[i].ToLower());
+            modelName = path[i].ToLower();
         }
         Debug.Log(reference.Path);
 
@@ -109,6 +112,7 @@ public class FirebaseUtils : MonoBehaviour
     // Extract asset bundle and instantiate model, ready to be rendered in Vuforia
     private IEnumerator InstantiateModel(AssetBundle modelAssetBundle)
     {
+        Debug.Log("reached instantiation");
         Debug.Log(modelAssetBundle);
         AssetBundleRequest modelReq = modelAssetBundle.LoadAssetAsync<GameObject>(modelName);
         yield return modelReq;

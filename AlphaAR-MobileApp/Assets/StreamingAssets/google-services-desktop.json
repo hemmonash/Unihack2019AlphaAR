@@ -1,46 +1,27 @@
 {
   "project_info": {
-<<<<<<< HEAD
-    "project_number": "1067032469524",
-    "firebase_url": "https://alpha-ar.firebaseio.com",
-    "project_id": "alpha-ar",
-    "storage_bucket": "alpha-ar.appspot.com"
-=======
     "project_number": "284565069399",
     "firebase_url": "https://alpha-ar-1e5d6.firebaseio.com",
     "project_id": "alpha-ar-1e5d6",
     "storage_bucket": "alpha-ar-1e5d6.appspot.com"
->>>>>>> origin/master
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
-        "mobilesdk_app_id": "1:1067032469524:android:9beefc6070aec54c",
-=======
         "mobilesdk_app_id": "1:284565069399:android:9beefc6070aec54c",
->>>>>>> origin/master
         "android_client_info": {
           "package_name": "com.AAR.AlphaAR"
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
-          "client_id": "1067032469524-lo3rh0gk0mts260uqfb1kk7d0ofoejh6.apps.googleusercontent.com",
-=======
           "client_id": "284565069399-t9b2dcgod95kl7orfb4mnursfhqafam4.apps.googleusercontent.com",
->>>>>>> origin/master
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
-          "current_key": "AIzaSyCffWwBDoT3jc803eTMXPPVBfkGx4utIiI"
-=======
           "current_key": "AIzaSyA02E8AbyHIzrldRKjcaDX1xBPKenxGd-0"
->>>>>>> origin/master
         }
       ],
       "services": {
