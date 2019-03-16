@@ -171,7 +171,7 @@ class CreateSession extends React.Component{
         return(
             <div>
             <Header fName={"Mohak"} title={"Create Session"}/>
-            <div className='container1'>
+            <div className='container-cs'>
                 <div className='container rounded'>
 
                     <Tabs activeKey={this.state.tab} className='tabItem'>
