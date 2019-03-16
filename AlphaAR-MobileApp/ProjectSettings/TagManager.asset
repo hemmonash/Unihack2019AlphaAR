@@ -9,6 +9,8 @@ TagManager:
   - MaterialButtonLayer
   - MaterialText
   - baseMenuItems
+  - MaterialRadioButton
+  - overlayMenu
   layers:
   - Default
   - TransparentFX

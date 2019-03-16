@@ -8,7 +8,7 @@ public class UserInterfaceButtons : MonoBehaviour
 {
 	public float scalingSpeed = 0.1f;
 	public float rotationSpeed = 80.0f;
-	public float translationSpeed = 15.0f;
+	public float translationSpeed = 40.0f;
     //	public GameObject Model;
 	bool repeatScaleUp = false;
 	bool repeatScaleDown = false;
@@ -24,73 +24,88 @@ public class UserInterfaceButtons : MonoBehaviour
     public GameObject Model;
 	public Animator cellAnim;
     // 8 placepholder button prefabs
-    public GameObject buttonPrefab_1;
-    public GameObject buttonPrefab_2;
-    public GameObject buttonPrefab_3;
-    public GameObject buttonPrefab_4;
-    public GameObject buttonPrefab_5;
-    public GameObject buttonPrefab_6;
-    public GameObject buttonPrefab_7;
-    public GameObject buttonPrefab_8;
+    public GameObject buttonPrefab;
+    //public GameObject buttonPrefab_2;
+    //public GameObject buttonPrefab_3;
+    //public GameObject buttonPrefab_4;
+    //public GameObject buttonPrefab_5;
+    //public GameObject buttonPrefab_6;
+    //public GameObject buttonPrefab_7;
+    //public GameObject buttonPrefab_8;
     bool animRan = false;
     public float[] dynamicButtonPrefabs;
 
     void Start()
     {
         // set display off to start with
-        buttonPrefab_1.SetActive(false);
-        buttonPrefab_2.SetActive(false);
-        buttonPrefab_3.SetActive(false);
-        buttonPrefab_4.SetActive(false);
-        buttonPrefab_5.SetActive(false);
-        buttonPrefab_6.SetActive(false);
-        buttonPrefab_7.SetActive(false);
-        buttonPrefab_8.SetActive(false);
+        //buttonPrefab_1.SetActive(false);
+        //buttonPrefab_2.SetActive(false);
+        //buttonPrefab_3.SetActive(false);
+        //buttonPrefab_4.SetActive(false);
+        //buttonPrefab_5.SetActive(false);
+        //buttonPrefab_6.SetActive(false);
+        //buttonPrefab_7.SetActive(false);
+        //buttonPrefab_8.SetActive(false);
 
-        // get the number of required prefabs
-        int requiredNuberOfPrefabs = MainUIHandler.reuqiredNumberOfPrefabs;
+
 
         //Text temp = buttonPrefab_1.GetComponentInChildren<Text>();
         //temp.text = "MITOCHONDRIA";
 
-        ReadConfigFile(requiredNuberOfPrefabs);
+        //ReadConfigFile(requiredNuberOfPrefabs);
     }
 
     void Update ()
-    	{
-            
-    		if (repeatScaleUp) {
-    			ScaleUpButton ();
-    		}
-
-    		if (repeatScaleDown) {
-    			ScaleDownButton ();
-    		}
-
-    		if (repeatRotateRight) {
-    			RotationRightButton();
-    		}
-
-    		if (repeatRotateLeft) {
-    			RotationLeftButton();
-    		}
-
-    		if (repeatPositionUp) {
-    			PositionUpButton();
-    		}
-
-    		if (repeatPositionDown) {
-    			PositionDownButton();
-    		}
-
-    		if (repeatPositionLeft) {
-    			PositionLeftButton();
-    		}
-
-    		if (repeatPositionRight) {
-    			PositionRightButton();
-    		}
+    {
+     // raycasting
+     if (Input.touchCount == 1) {
+            // valid touch
+            if (Input.GetTouch(0).phase == TouchPhase.Began) {
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit_, Mathf.Infinity))
+                {
+                    Debug.Log(hit_.transform.name);
+                }
+            }
         }
+
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, Mathf.Infinity))
+        {
+            Debug.Log(hit.transform.name);
+        }
+
+
+        if (repeatScaleUp) {
+			ScaleUpButton ();
+		}
+
+		if (repeatScaleDown) {
+			ScaleDownButton ();
+		}
+
+		if (repeatRotateRight) {
+			RotationRightButton();
+		}
+
+		if (repeatRotateLeft) {
+			RotationLeftButton();
+		}
+
+		if (repeatPositionUp) {
+			PositionUpButton();
+		}
+
+		if (repeatPositionDown) {
+			PositionDownButton();
+		}
+
+		if (repeatPositionLeft) {
+			PositionLeftButton();
+		}
+
+		if (repeatPositionRight) {
+			PositionRightButton();
+		}
+    }
 
     public void ShowMenu() 
     {
@@ -275,7 +290,7 @@ public class UserInterfaceButtons : MonoBehaviour
         }
     }
 
-    public void ReadConfigFile(int numberOfPrefabsRequired)
+    public void ReadConfigFile()
     {
         // instantiate the model animations using the config file
         //Instantiate(buttonPrefab, );
@@ -287,7 +302,13 @@ public class UserInterfaceButtons : MonoBehaviour
         //buttonPrefabButtonComponent.onClick.AddListener(() => MyButtonDelegate("Nucleus"));
 
         // based on how many prefabs are need for the ui buttons, enable the correct number
-        Debug.Log("Required Number of prefabs:" + numberOfPrefabsRequired.ToString());
+        //Debug.Log("Required Number of prefabs:" + numberOfPrefabsRequired.ToString());
+        buttonPrefab.GetComponent<Button>().onClick.AddListener(delegate { MyButtonDelegate("Mitochondria"); });
+
+        Text a = buttonPrefab.transform.GetChild(0).GetComponent<Text>();
+        a.text = "WORKS";
+        // get the number of required prefabs
+        int requiredNuberOfPrefabs = MainUIHandler.reuqiredNumberOfPrefabs;
 
     }
 
@@ -297,4 +318,6 @@ public class UserInterfaceButtons : MonoBehaviour
         Debug.Log("RENDEREDBUTTON: Clicked");
         PlayAnim(animName);
     }
+
+   
 }   

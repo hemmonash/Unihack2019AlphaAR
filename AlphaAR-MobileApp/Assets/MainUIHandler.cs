@@ -81,7 +81,7 @@ public class MainUIHandler : MonoBehaviour
 
         String queryString = System.DateTime.Now.ToString("yyyy-MM-dd-HH");
         //Debug.Log(queryString);
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://alpha-ar.firebaseio.com/");
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://alpha-ar-1e5d6.firebaseio.com/");
         // Get the root reference location of the database.
         DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
         FirebaseDatabase.DefaultInstance.GetReference(queryString).GetValueAsync().ContinueWith(task =>
