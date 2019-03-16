@@ -4,3 +4,4 @@ AlphaAR-WebApp/node_modules
 *.dll
 *.bin
 *.cache
+*.log
