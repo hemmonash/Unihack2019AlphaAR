@@ -2,6 +2,7 @@ import React from "react";
 import {Form, Tabs, Tab, ButtonToolbar, Button} from 'react-bootstrap';
 import './CreateSession.css';
 import fire from "../config/fire";
+import Header from  './Header'
 
 function OptionsSubject(props) {
     var subjects = ["y07sci01", "y08sci01"];
@@ -50,7 +51,7 @@ function OptionsWeek(props){
     return(
         <Form className='item'>
             <Form.Group controlID="exampleForm.ControlSelect1">
-                <Form.Label>Choose a Term</Form.Label>
+                <Form.Label>Choose a Week</Form.Label>
                 <Form.Control as="select"
                               onChange={props.onSelect}>
                     {weeks.map(function (week) {
@@ -71,7 +72,7 @@ function OptionsModel(props){
     return(
         <Form className='item'>
             <Form.Group controlID="exampleForm.ControlSelect1">
-                <Form.Label>Choose a Term</Form.Label>
+                <Form.Label>Choose an AR experience</Form.Label>
                 <Form.Control as="select"
                               onChange={props.onSelect}>
                     {model.map(function (model) {
@@ -168,6 +169,8 @@ class CreateSession extends React.Component{
 
     render(){
         return(
+            <div>
+            <Header fName={"Mohak"} title={"Create Session"}/>
             <div className='container1'>
                 <div className='container rounded'>
 
@@ -211,6 +214,7 @@ class CreateSession extends React.Component{
 
                     </Tabs>
                 </div>
+            </div>
             </div>
         )
     }

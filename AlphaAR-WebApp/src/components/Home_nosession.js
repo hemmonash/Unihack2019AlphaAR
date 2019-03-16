@@ -15,7 +15,7 @@ class Home_nosession extends Component {
                     />
                     <br></br>
                     <br></br>
-                    <Button variant="primary">Create Session</Button>
+                    <Button variant="primary" href="/createsession" >Create Session</Button>
 
                 </div>
             </div>
