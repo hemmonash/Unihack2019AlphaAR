@@ -14,6 +14,7 @@ class Home_session extends Component {
         var uuid = this.props.uuid;
         console.log(uuid);
         
+        
           
   
       }
@@ -35,8 +36,8 @@ render(){
   <tbody>
     <tr>
     
-      <td> {this.props.subjectId}{this.props.term}{this.props.week}{this.props.modelName}</td>
-      <td>29 min</td>
+      <td> {this.props.modelName} for {this.props.subjectName}, term {this.props.term}, week {this.props.week}</td>
+      <td>{this.props.timeRemaining} min </td>
      
     </tr>
    

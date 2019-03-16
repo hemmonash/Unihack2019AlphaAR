@@ -22,7 +22,9 @@ class Home extends Component {
       term:'',
       week:'',
       modelName:'',
-      uuid:''
+      uuid:'',
+      subjectName:'',
+     timeRemaining:''
     }
   }
 
@@ -56,24 +58,44 @@ class Home extends Component {
     .then(function(snapshot) {
     this.setState({sessionRunning: snapshot.exists()})
     if(snapshot.exists()){
-        var modelId = snapshot.child("modelId").val()
-        const subjectId = modelId.substring(0,7);
-        const term = modelId.substring(7,9);
-        const week = modelId.substring(9,11);
-        const modelName = modelId.substring(11,modelId.length);
-        this.setState({sessionId:snapshot.child("sessionId").val(),subjectId:subjectId,term:term,week:week,modelName:modelName}, function () {
+        var modelId = snapshot.child("modelId").val();
+        var dateTime = snapshot.child("dateTime").val();
+        const currentDate = Date.now();
+        console.log("current time:"+currentDate)
+        var timeRemaining = 1800000 - (currentDate - dateTime);
+       timeRemaining =  Math.floor(timeRemaining* 0.00001667)
+        const subjectId = modelId.substring(0,8);
+        const term = modelId.substring(8,10);
+        const week = modelId.substring(10,12);
+        const modelName = modelId.substring(12,modelId.length);
+        this.setState({sessionId:snapshot.child("sessionId").val(),subjectId:subjectId,term:term,week:week,modelName:modelName, timeRemaining:timeRemaining}, function () {
             console.log(this.state.sessionId);
+            console.log(this.state.timeRemaining);
             console.log(this.state.modelId);});
-           
-    
-       
+            
+            const db = fire.firestore();
+            fire.auth().onAuthStateChanged((user) => {
+              if (user) {
+                  console.log(this.state.subjectId)
+                  const subjectRef = db.collection("subjects").doc(this.state.subjectId);
+                  subjectRef.get().then(function(doc) {
+                      if (doc.exists) {
+                          this.setState({subjectName:doc.data().subjectName}, function () {
+                              console.log("subjectName: "  + this.state.subjectName)
+                          });
+                      }
+                }.bind(this));
+              }
+            });
     }
   }.bind(this));
     
+  
     
        
     
 }
+  
    
 
   render() {
@@ -84,7 +106,7 @@ class Home extends Component {
         <div>
           <Header fName={this.state.teacherData.firstName}/>
           <div id="nosessionView">
-          {this.state.sessionRunning? <Home_session sessionId={this.state.sessionId} subjectId={this.state.subjectId} term={this.state.term} week={this.state.week} modelName={this.state.modelName} teacherData={this.state.teacherData}/> :<Home_nosession teacherData={this.state.teacherData}/>}
+          {this.state.sessionRunning? <Home_session sessionId={this.state.sessionId} subjectName={this.state.subjectName} timeRemaining={this.state.timeRemaining} subjectId={this.state.subjectId} term={this.state.term} week={this.state.week} modelName={this.state.modelName} teacherData={this.state.teacherData}/> :<Home_nosession teacherData={this.state.teacherData}/>}
           
           </div>
         </div>
