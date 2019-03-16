@@ -1,0 +1,26 @@
+
+.vertical-center {
+   
+ 
+    max-width:50%;
+    vertical-align: middle;
+    height:50%;
+    display: flex;
+    align-items: center;
+    
+  }
+  .jumbotron {
+      height:50%;
+      background-color:gray;
+  }
+
+  .text-center{
+      background-color: gray;
+  }
+  .cont1{
+      background-color: gray;
+  }
+
+  #cont{
+    background-color: gray;
+  }
