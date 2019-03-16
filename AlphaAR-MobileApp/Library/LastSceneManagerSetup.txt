@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/ARScene.unity
-  isLoaded: 0
-  isActive: 0
