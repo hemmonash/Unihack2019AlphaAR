@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1067032469524-7158oo22m7tq971q3pig9odn9a551b8f.apps.googleusercontent.com</string>
+	<string>284565069399-q0ug8ltak75uoprnpitngmegng1bv8s8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1067032469524-7158oo22m7tq971q3pig9odn9a551b8f</string>
+	<string>com.googleusercontent.apps.284565069399-q0ug8ltak75uoprnpitngmegng1bv8s8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA3x1y56yQ28TDQHxmHKf_v40y85w7Atas</string>
+	<string>AIzaSyCGdsZoXNa-wUAuZBxb9Vw6UWtrQyNi74E</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1067032469524</string>
+	<string>284565069399</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.AAR.AlphaAR</string>
 	<key>PROJECT_ID</key>
-	<string>alpha-ar</string>
+	<string>alpha-ar-1e5d6</string>
 	<key>STORAGE_BUCKET</key>
-	<string>alpha-ar.appspot.com</string>
+	<string>alpha-ar-1e5d6.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1067032469524:ios:9beefc6070aec54c</string>
+	<string>1:284565069399:ios:9beefc6070aec54c</string>
 	<key>DATABASE_URL</key>
-	<string>https://alpha-ar.firebaseio.com</string>
+	<string>https://alpha-ar-1e5d6.firebaseio.com</string>
 </dict>
 </plist>

@@ -502,6 +502,100 @@ ModelImporter:
     4300182: Plane001
     4300184: Plane005
     4300186: Line005
+    6400000: Animal Cell Maket
+    6400002: Line001
+    6400004: Line001 1
+    6400006: Line002
+    6400008: Line002 1
+    6400010: Line003
+    6400012: Line003 1
+    6400014: Line004
+    6400016: Line004 1
+    6400018: Line005
+    6400020: Line005 1
+    6400022: Line006
+    6400024: Line006 1
+    6400026: Line007
+    6400028: Line007 1
+    6400030: Line008
+    6400032: Line008 1
+    6400034: Object001
+    6400036: Object001 1
+    6400038: Object003
+    6400040: Object004
+    6400042: Object005
+    6400044: Object006
+    6400046: Object007
+    6400048: Object008
+    6400050: Object009
+    6400052: Object010
+    6400054: Object011
+    6400056: Object013
+    6400058: Object014
+    6400060: Object015
+    6400062: Object016
+    6400064: Object017
+    6400066: Object018
+    6400068: Object019
+    6400070: Object020
+    6400072: Object021
+    6400074: Object022
+    6400076: Object023
+    6400078: Object024
+    6400080: Object026
+    6400082: Object028
+    6400084: Object031
+    6400086: Object035
+    6400088: Object036
+    6400090: Object037
+    6400092: Object038
+    6400094: Object039
+    6400096: Object040
+    6400098: Object041
+    6400100: Object042
+    6400102: Object043
+    6400104: Object044
+    6400106: Object045
+    6400108: Object046
+    6400110: Object047
+    6400112: Object048
+    6400114: Object049
+    6400116: Object050
+    6400118: Object051
+    6400120: Object052
+    6400122: Object053
+    6400124: Object054
+    6400126: Object055
+    6400128: Object056
+    6400130: Object057
+    6400132: Object058
+    6400134: Object059
+    6400136: Object060
+    6400138: Object061
+    6400140: Object062
+    6400142: Object063
+    6400144: Object064
+    6400146: Object065
+    6400148: Object066
+    6400150: Object067
+    6400152: Object068
+    6400154: Object069
+    6400156: Plane001
+    6400158: Plane001 1
+    6400160: Plane002
+    6400162: Plane002 1
+    6400164: Plane003
+    6400166: Plane003 1
+    6400168: Plane004
+    6400170: Plane004 1
+    6400172: Plane005
+    6400174: Plane005 1
+    6400176: Plane006
+    6400178: Plane006 1
+    6400180: Plane007
+    6400182: Plane007 1
+    6400184: Plane008
+    6400186: Plane008 1
     7400000: Take 001
     7400002: explode
     7400004: explode_reverse
@@ -858,7 +952,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
