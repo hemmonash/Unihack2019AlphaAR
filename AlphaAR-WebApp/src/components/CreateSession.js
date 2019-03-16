@@ -12,12 +12,13 @@ class CreateSession extends React.Component{
             subject: 1,
             term: 1,
             week: 1,
+            tab: "subject"
         };
 
         this.handleChangeSubject = this.handleChangeSubject.bind(this);
         this.handleChangeTerm = this.handleChangeTerm.bind(this);
         this.handleChangeWeek = this.handleChangeWeek.bind(this);
-
+        this.handleTab = this.handleTab.bind(this);
     }
 
 
@@ -33,13 +34,17 @@ class CreateSession extends React.Component{
         this.setState({ week: e.target.value });
     };
 
+    handleTab(e) {
+        this.setState({tab: e});
+    }
+
 
 
     render(){
         return(
             <div className='container'>
-                <Tabs defaultActiveKey="subject" className='tabItem'>
-                    <Tab eventKey="subject" title="Subject">
+                <Tabs activeKey={this.state.tab} className='tabItem' >
+                    <Tab eventKey="subject" title="Subject" disabled>
 
                         <Form className='item'>
                             <Form.Group controlID= "exampleForm.ControlSelect1">
@@ -53,13 +58,14 @@ class CreateSession extends React.Component{
                             </Form.Group>
                         </Form>
 
-                        <Button className='button'>Next</Button>
+                        <Button className='button' onClick={()=>this.handleTab("term")}>Next</Button>
+
 
                     </Tab>
 
-                    <Tab eventKey="term" title="Term" >
+                    <Tab eventKey="term" title="Term" disabled>
                         <Form className='item'>
-                            <Form.Group controlID="exampleForm.ControlSelect1">
+                            <Form.Group controlID="exampleForm.ControlSelect1" >
                                 <Form.Label>Choose a Term</Form.Label>
                                 <Form.Control as="select"
                                               onChange={this.handleChangeTerm}>
@@ -70,10 +76,12 @@ class CreateSession extends React.Component{
                             </Form.Group>
                         </Form>
 
-                        <Button className='button'>Next</Button>
+                        <Button className='button' onClick={()=>this.handleTab("subject")}>Back</Button>
+                        <Button className='button' onClick={()=>this.handleTab("week")}>Next</Button>
+
                     </Tab>
 
-                    <Tab eventKey="week" title="Week" >
+                    <Tab eventKey="week" title="Week" disabled>
                         <Form className='item'>
                             <Form.Group controlID= "exampleForm.ControlSelect1">
                                 <Form.Label>Choose a Week</Form.Label>
@@ -90,7 +98,7 @@ class CreateSession extends React.Component{
                         <p>{this.state.term}</p>
                         <p>{this.state.week}</p>
 
-
+                        <Button className='button' onClick={()=>this.handleTab("term")}>Back</Button>
                         <Button className='button'>Create Session</Button>
 
                     </Tab>
