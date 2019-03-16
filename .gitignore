@@ -1,7 +1,4 @@
 AlphaAR-WebApp/node_modules
-*.meta
-*.info
-*.dll
-*.bin
-*.cache
-*.log
+AlphaAR-MobileApp/Temp
+AlphaAR-MobileApp/Library
+AlphaAR-MobileApp/.vs
