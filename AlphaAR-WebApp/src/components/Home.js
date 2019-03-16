@@ -104,9 +104,9 @@ class Home extends Component {
     return (
      
         <div>
-          <Header fName={this.state.teacherData.firstName}/>
+          <Header fName={this.state.teacherData.firstName} title={"Manage Session"}/>
           <div id="nosessionView">
-          {this.state.sessionRunning? <Home_session sessionId={this.state.sessionId} subjectName={this.state.subjectName} timeRemaining={this.state.timeRemaining} subjectId={this.state.subjectId} term={this.state.term} week={this.state.week} modelName={this.state.modelName} teacherData={this.state.teacherData}/> :<Home_nosession teacherData={this.state.teacherData}/>}
+          {this.state.sessionRunning? <Home_session sessionId={this.state.sessionId} subjectName={this.state.subjectName} timeRemaining={this.state.timeRemaining} subjectId={this.state.subjectId} uuid={this.state.uuid} term={this.state.term} week={this.state.week} modelName={this.state.modelName} teacherData={this.state.teacherData}/> :<Home_nosession teacherData={this.state.teacherData}/>}
           
           </div>
         </div>

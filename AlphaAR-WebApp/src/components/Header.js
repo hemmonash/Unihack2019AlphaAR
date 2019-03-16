@@ -20,7 +20,7 @@ class Header extends Component {
             className="d-inline-block align-top"
            
           />
-          {'  Manage Session'}
+          {this.props.title}
           
         </Navbar.Brand>
         <Navbar.Toggle />
