@@ -122,6 +122,7 @@
     <Compile Include="Assets\muip\Scripts\RatingSystem.cs" />
     <Compile Include="Assets\muip\Scripts\SwitchAnim.cs" />
     <Compile Include="Assets\muip\Scripts\ToggleAnim.cs" />
+    <Compile Include="Assets\PinchZoom.cs" />
     <Compile Include="Assets\RaycastingModel.cs" />
     <Compile Include="Assets\UserInterfaceButtons.cs" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-storage-unity\maven-metadata.xml" />
