@@ -1,0 +1,23 @@
+img{
+   
+    margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar{
+    height: 70px;
+   
+    background-image: linear-gradient(to right,#03a9f4,#01579b);
+  
+    
+}
+
+.navbar-brand{
+    font-size: 26px !important;
+}
+
+.navbar-text{
+    font-size: 20px;
+    color: white;
+    
+}
+

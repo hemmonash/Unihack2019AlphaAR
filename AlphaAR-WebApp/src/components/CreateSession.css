@@ -1,0 +1,36 @@
+.container-cs{
+   
+    width: 100%;
+    height: 100%;
+    margin-top:10%;
+    
+}
+.container{
+    width: 650px;
+    padding: 50px;
+    background-color: #eeeeee;
+
+}
+
+.item{
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
+
+.button{
+    width: 500px;
+    margin-left: 10px;
+}
+
+.tabItem{
+    width: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
