@@ -14,6 +14,7 @@ class Home_session extends Component {
         if (user) {
             var sessionRef = fire.database().ref('sessions/' + user.uid)
             sessionRef.remove()
+            window.location.href="/"
         }
     });
    
@@ -39,13 +40,15 @@ render(){
                   <tbody>
                     <tr>
 
-                      <td> {this.props.modelName} for {this.props.subjectName}, term {this.props.term}, week {this.props.week}</td>
+                     <td> {this.props.modelName} for {this.props.subjectName}, Term {this.props.term}, Week {this.props.week}</td>
                       <td>{this.props.timeRemaining}</td>
 
                     </tr>
 
                   </tbody>
                 </Table>
+                <h6>Session ID</h6>
+                <h1>{this.props.sessionId}</h1>
                 <div className='container2'>
                     <Button variant="primary" onClick={this.stopSession}>Stop Session</Button>
                 </div>

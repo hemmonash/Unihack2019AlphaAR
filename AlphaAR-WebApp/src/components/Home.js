@@ -67,7 +67,7 @@ class Home extends Component {
         const subjectId = modelId.substring(0,8);
         const term = modelId.substring(8,10);
         const week = modelId.substring(10,12);
-        const modelName = modelId.substring(12,modelId.length);
+        const modelName = modelId.substring(13,modelId.length);
         this.setState({sessionId:snapshot.child("sessionId").val(),subjectId:subjectId,term:term,week:week,modelName:modelName, timeRemaining:timeRemaining}, function () {
             console.log(this.state.sessionId);
             console.log(this.state.timeRemaining);

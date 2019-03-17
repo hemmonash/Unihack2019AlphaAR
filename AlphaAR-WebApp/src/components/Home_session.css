@@ -65,4 +65,15 @@
     justify-content: center;
 }
 
-  
+h1{
+    font-size: 80px;
+    text-align: center;
+    background: -webkit-linear-gradient(#03a9f4, #01579b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6{
+    color:gray;
+    text-align:center;
+}

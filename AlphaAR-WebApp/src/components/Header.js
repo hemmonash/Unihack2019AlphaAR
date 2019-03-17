@@ -2,10 +2,16 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {  Navbar, Button } from 'react-bootstrap';
 import './Header.css'
-
+import fire from '../config/fire'
 
 class Header extends Component {
-
+    logout(e){
+        fire.auth().signOut().then(function() {
+             window.location.href="/"
+          }, function(error) {
+            // An error happened.
+          }.bind(this));
+    }
   render() {
     return (
    
@@ -26,7 +32,7 @@ class Header extends Component {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
         <Navbar.Text>
-      Hi, <a href="logOut">{this.props.fName} ▼ </a>
+        Hi, <a href="" onClick={this.logout}>{this.props.fName} ▼ </a> 
     </Navbar.Text>
     </Navbar.Collapse>
       </Navbar>
