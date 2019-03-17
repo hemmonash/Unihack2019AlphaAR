@@ -4,6 +4,7 @@ import './CreateSession.css';
 import fire from "../config/fire";
 import Header from  './Header'
 
+
 function OptionsSubject(props) {
     var subjects = ["y07sci01", "y08sci01"];
 
@@ -176,9 +177,7 @@ class CreateSession extends React.Component{
             dateTime: Date.now(),
             modelId: subject+term+week+"_"+model,
             sessionId: "941875"
-    });
-
-
+        });
     }
 
 
@@ -221,10 +220,8 @@ class CreateSession extends React.Component{
 
                             <OptionsModel subjects={this.state.subjects} onSelect={this.handleChangeModel}/>
 
-                            <p>{this.state.subject}{this.state.term}{this.state.week}_{this.state.model}</p>
-
                             <Button className='button' onClick={() => this.handleTab("week")}>Back</Button>
-                            <Button className='button' onClick={() => this.handleCreate()} >Create Session</Button>
+                            <Button className='button' onClick={() => { this.handleCreate(); this.props.history.push('/')}}  >Create Session</Button>
                         </Tab>
 
 
