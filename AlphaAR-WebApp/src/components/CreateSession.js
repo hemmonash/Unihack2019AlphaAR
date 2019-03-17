@@ -108,6 +108,7 @@ class CreateSession extends React.Component{
         this.handleChangeSubject = this.handleChangeSubject.bind(this);
         this.handleChangeTerm = this.handleChangeTerm.bind(this);
         this.handleChangeWeek = this.handleChangeWeek.bind(this);
+        this.handleChangeModel = this.handleChangeModel.bind(this);
         this.handleTab = this.handleTab.bind(this);
         this.firebasestuff = this.firebasestuff.bind(this);
         this.handleCreate=this.handleCreate.bind(this);
@@ -174,8 +175,8 @@ class CreateSession extends React.Component{
         fire.database().ref('sessions/' + teacherID).set({
             dateTime: Date.now(),
             modelId: subject+term+week+"_"+model,
-            sessionId: "345678"
-        });
+            sessionId: "941875"
+    });
 
 
     }
@@ -223,7 +224,7 @@ class CreateSession extends React.Component{
                             <p>{this.state.subject}{this.state.term}{this.state.week}_{this.state.model}</p>
 
                             <Button className='button' onClick={() => this.handleTab("week")}>Back</Button>
-                            <Button className='button' onClick={() => this.handleCreate()} href="http://localhost:8080">Create Session</Button>
+                            <Button className='button' onClick={() => this.handleCreate()} >Create Session</Button>
                         </Tab>
 
 
