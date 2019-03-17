@@ -60,7 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\APIUtils.cs" />
     <Compile Include="Assets\FadeInEffect.cs" />
+    <Compile Include="Assets\FirebaseUtils.cs" />
     <Compile Include="Assets\LoadAssetBundles.cs" />
     <Compile Include="Assets\MainUIHandler.cs" />
     <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
@@ -147,21 +149,6 @@
     <None Include="Assets\Firebase\Plugins\Http\link.xml" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -389,15 +376,6 @@
     </Reference>
     <Reference Include="Unity.Tasks">
       <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/VoidDDQ/Documents/GitHub/Unihack2019AlphaAR/AlphaAR-MobileApp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
